@@ -4,6 +4,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
+import android.view.View
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
+import android.widget.Spinner
 import com.example.signup.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -36,4 +40,9 @@ class MainActivity : AppCompatActivity() {
         menuInflater.inflate(R.menu.activity_menu, menu)
         return super.onCreateOptionsMenu(menu)
     }
+
+
+
+
+
 }

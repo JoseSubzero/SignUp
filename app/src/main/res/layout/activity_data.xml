@@ -23,7 +23,7 @@
 
     <EditText
         android:id="@+id/etDataPhoneNumber"
-        android:layout_width="325dp"
+        android:layout_width="162dp"
         android:layout_height="48dp"
         android:ems="10"
         android:hint="@string/DataPhoneNumber"
@@ -31,14 +31,14 @@
         android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.558" />
 
     <EditText
         android:id="@+id/etDataEmail"
-        android:layout_width="325dp"
+        android:layout_width="162dp"
         android:layout_height="48dp"
         android:ems="10"
         android:hint="@string/DataEmail"
@@ -46,7 +46,7 @@
         android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.691" />
@@ -82,7 +82,7 @@
         app:layout_constraintVertical_bias="0.951" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/ivPerfil"
         android:layout_width="411dp"
         android:layout_height="222dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -94,19 +94,7 @@
         app:srcCompat="@drawable/ic_baseline_person_24" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="60dp"
-        android:layout_height="62dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.928"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.336"
-        app:srcCompat="@drawable/ic_baseline_photo_camera_24" />
-
-    <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/ivName"
         android:layout_width="39dp"
         android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -118,7 +106,7 @@
         app:srcCompat="@drawable/ic_baseline_persona_24" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/ivPhone"
         android:layout_width="39dp"
         android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -130,7 +118,7 @@
         app:srcCompat="@drawable/ic_baseline_phone_24" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/ivEmail"
         android:layout_width="39dp"
         android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -142,7 +130,7 @@
         app:srcCompat="@drawable/ic_baseline_mail_24" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/ivAddress"
         android:layout_width="39dp"
         android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -154,7 +142,7 @@
         app:srcCompat="@drawable/ic_baseline_location_on_24" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/ivCompany"
         android:layout_width="38dp"
         android:layout_height="39dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -162,6 +150,41 @@
         app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.951"
+        app:layout_constraintVertical_bias="0.934"
         app:srcCompat="@drawable/ic_baseline_corporate_fare_24" />
+
+    <Spinner
+        android:id="@+id/spPhone"
+        android:layout_width="162dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.90"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.558" />
+
+    <Spinner
+        android:id="@+id/spEmail"
+        android:layout_width="162dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.90"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabtnPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341"
+        app:srcCompat="@drawable/ic_baseline_photo_camera_24" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Phone_Type">
+        <item>Home</item>
+        <item>Office</item>
+        <item>Fax</item>
+        <item>Personal number</item>
+    </string-array>
+
+    <string-array name="Email_Type">
+        <item>Personal</item>
+        <item>Office</item>
+        <item>Shared</item>
+    </string-array>
+</resources>
