@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SignUp</string>
+    <string name="FullName">Full Name</string>
+    <string name="Username">Username</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="RePassword">Re-type Password</string>
+    <string name="Gender">Gender</string>
+    <string name="rbFemale">Female</string>
+    <string name="rbMale">Male</string>
+    <string name="btnRegister">Register</string>
+    <string name="btnRegisterFacebook">Register with Facebook</string>
+    <string name="DataName">Name</string>
+    <string name="DataPhoneNumber">Phone Number</string>
+    <string name="DataEmail">Email</string>
+    <string name="DataAddress">Address</string>
+    <string name="DataCompany">Company</string>
+</resources>
