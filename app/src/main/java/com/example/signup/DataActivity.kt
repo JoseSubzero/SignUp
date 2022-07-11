@@ -39,7 +39,7 @@ class DataActivity : AppCompatActivity() {
         supportActionBar!!.setDisplayUseLogoEnabled(true)
     }
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        menu.add(Menu.FIRST, ID_CONFIRMACION, Menu.FIRST, "Confirmación")
+        menu.add(Menu.NONE, ID_CONFIRMACION, Menu.NONE, "Confirmación")
         menuInflater.inflate(R.menu.activity_menu, menu)
         return super.onCreateOptionsMenu(menu)
     }

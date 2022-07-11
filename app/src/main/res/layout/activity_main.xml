@@ -85,6 +85,7 @@
         android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="onRadioButtonClicked"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -97,12 +98,14 @@
             android:id="@+id/rbFemale"
             android:layout_width="match_parent"
             android:layout_height="48dp"
+            android:onClick="onRadioButtonClicked"
             android:text="@string/rbFemale" />
 
         <RadioButton
             android:id="@+id/rbMale"
             android:layout_width="match_parent"
             android:layout_height="48dp"
+            android:onClick="onRadioButtonClicked"
             android:text="@string/rbMale" />
     </RadioGroup>
 

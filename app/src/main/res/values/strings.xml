@@ -16,4 +16,6 @@
     <string name="DataAddress">Address</string>
     <string name="DataCompany">Company</string>
     <string name="Confirmation">Confirmation</string>
+    <string name="Access">Example</string>
+    <string name="BackForm">Back</string>
 </resources>
